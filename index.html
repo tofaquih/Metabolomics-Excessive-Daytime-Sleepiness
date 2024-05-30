@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/open-sans.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/tooltipster.bundle.min.css" />
+
+  <script src="js/cytoscape.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/cytoscape-dagre.js"></script>
+  <script src="js/index.js"></script>
+
+  <script src="https://unpkg.com/popper.js@1.14.4/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/tippy.js@2.6.0/dist/tippy.all.js"></script>
+  <script src="js/cytoscape-cxtmenu.js"></script>
+
+
+  <title>Metabolome Atlas of Excessive Daytime Sleepiness</title>
+</head>
+
+<body>
+  <h1>Metabolome Atlas of Excessive Daytime Sleepiness</h1>
+
+  <div id="cy" class="main">
+  </div>
+
+  <div class="tools">
+    
+
+
+    <h2>Data</h2>
+
+    <p>Please choose which analysis results you want to display in the network view from the dropdown menu below. Right-click on the nodes and choose to display either the analysis results or the node annotations. The <a target="_blank" href="">NDEx Repository</a> provides a downloadable version of the network data along with supplementary tools for network queries.</p>
+
+    <label for="data" class="tooltip u-pull-left" title="Switch to a new dataset">Active dataset</label>
+    <div class="u-cf"></div>
+    <select class id="data">
+        <option value="2024_cytoJS_formatted_Model_A_radial.json" selected>Main Model (Radial)</option>
+        <option value="2024_cytoJS_formatted_Model_A_sub.json">Main Model (Subsetted)</option>
+
+        <option value="cytoJS_formatted_Model_A.json">Main Model</option>
+        <option value="cytoJS_formatted_Comorbid.json">Adjusted for Hypertension,T2d, and Statins</option>
+        <option value="cytoJS_formatted_Diet.json">Adjusted for Diet</option>
+
+        <option value="2024_cytoJS_formatted_Model_A_Men.json">Males Stratified Analysis</option>
+        <option value="cytoJS_formatted_Comorbid_Men.json">Males: Adjusted for Hypertension,T2d, and Statins</option>
+        <option value="cytoJS_formatted_Diet_Men.json">Males: Adjusted for Diet</option>
+
+        
+      </select>
+    <div class="u-cf">  
+        <p id="p0"></p>
+    </div>
+    Reset <i id="redo-layout" class="fa fa-refresh action-icon tooltip" title="Redo layout"></i>
+    Legend <i id="legendicon" class="fa fa-map action-icon tooltip" title="Popup Legend" href="images/Legend_v2.png" target="_blank" onclick="window.open('images/Legend_v2.png', 'popup', 'height=800, width=800'); return false;"></i> 
+    <!-- <a href="images/Legend_v2.png" target="_blank" onclick="window.open('images/Legend_v2.png', 'popup', 'height=800, width=800'); return false;">View Legend</a> -->
+    <br><br>
+
+    
+    <!--<div class="legend">
+    </div> -->
+    <div class="u-cf">  
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <p id="p5"></p>
+    <p id="p6"></p>
+    <p id="p7"></p>
+    </div>
+</div>
+
+  <div class="footer-link">
+    <div class="wide">
+      <img src="images/hms_logo_final_rgb_0.png">
+      <img src="images/bwh-logo.svg">
+    </div>
+    <a target="_blank" href="https://tofaquih.github.io/">https://tofaquih.github.io/</a>
+  </div>
+</body>
+
+</html>

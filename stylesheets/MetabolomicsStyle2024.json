@@ -1,0 +1,348 @@
+[ {
+    "selector" : "node",
+    "css" : {
+      "border-color" : "rgb(0,0,0)",
+      "background-opacity" : 1.0,
+      "height" : 50.0,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "width" : 50.0,
+      "text-opacity" : 1.0,
+      "border-opacity" : 1.0,
+      "color" : "rgb(0,0,0)",
+      "background-color" : "rgb(200,0,0)",
+      "font-size" : 25,
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "border-width" : 5.0,
+      "shape" : "ellipse",
+      "content" : "data(canonicalName)"
+    }
+  }, {
+    "selector" : "node[Significant = 1.0]",
+    "css" : {
+      "color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "node[Category = 'Known Compound']",
+    "css" : {
+      "background-color" : "rgb(106,76,147)"
+    }
+  }, {
+    "selector" : "node[Category = 'Gene']",
+    "css" : {
+      "background-color" : "rgb(138,201,38)"
+    }
+  }, {
+    "selector" : "node[Category = 'Enzyme']",
+    "css" : {
+      "background-color" : "rgb(255,209,102)"
+    }
+  }, {
+    "selector" : "node[Category = 'Input Gene']",
+    "css" : {
+      "background-color" : "rgb(243,91,4)"
+    }
+  }, {
+    "selector" : "node[Category = 'Unknown Compound']",
+    "css" : {
+      "background-color" : "rgb(247,129,191)"
+    }
+  }, {
+    "selector" : "node[Category = 'Compound']",
+    "css" : {
+      "background-color" : "rgb(255,89,94)"
+    }
+  }, {
+    "selector" : "node[Category = 'Reaction']",
+    "css" : {
+      "background-color" : "rgb(6,214,160)"
+    }
+  }, {
+    "selector" : "node[Category = 'Input Compound']",
+    "css" : {
+      "background-color" : "rgb(25,130,196)"
+    }
+  }, {
+    "selector" : "node[Pathway = '']",
+    "css" : {
+      "border-color" : "rgb(0,0,0)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Drug - Cardiovascular']",
+    "css" : {
+      "border-color" : "rgb(74,169,87)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Fatty Acid, Branched']",
+    "css" : {
+      "border-color" : "rgb(103,141,105)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Histidine Metabolism']",
+    "css" : {
+      "border-color" : "rgb(231,115,38)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Corticosteroids']",
+    "css" : {
+      "border-color" : "rgb(64,146,139)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Secondary Bile Acid Metabolism']",
+    "css" : {
+      "border-color" : "rgb(214,111,129)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Pregnenolone Steroids']",
+    "css" : {
+      "border-color" : "rgb(176,91,58)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Fatty Acid, Dicarboxylate']",
+    "css" : {
+      "border-color" : "rgb(139,95,147)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Unannotated']",
+    "css" : {
+      "border-color" : "rgb(153,153,153)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Phosphatidylcholine (PC)']",
+    "css" : {
+      "border-color" : "rgb(197,146,44)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Long Chain Monounsaturated Fatty Acid']",
+    "css" : {
+      "border-color" : "rgb(255,157,12)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Androgenic Steroids']",
+    "css" : {
+      "border-color" : "rgb(147,73,101)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Sphingomyelins']",
+    "css" : {
+      "border-color" : "rgb(241,130,189)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Chemical']",
+    "css" : {
+      "border-color" : "rgb(0,204,204)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Long Chain Polyunsaturated Fatty Acid (n3 and n6)']",
+    "css" : {
+      "border-color" : "rgb(255,217,36)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Fatty Acid, Monohydroxy']",
+    "css" : {
+      "border-color" : "rgb(182,92,115)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Long Chain Saturated Fatty Acid']",
+    "css" : {
+      "border-color" : "rgb(239,225,49)"
+    }
+  }, {
+    "selector" : "node[Pathway = 'Tyrosine Metabolism']",
+    "css" : {
+      "border-color" : "rgb(197,142,171)"
+    }
+  }, {
+    "selector" : "node[Category = 'Gene']",
+    "css" : {
+      "font-size" : 10
+    }
+  }, {
+    "selector" : "node[Category = 'Enzyme']",
+    "css" : {
+      "font-size" : 8
+    }
+  }, {
+    "selector" : "node[Category = 'Pathway']",
+    "css" : {
+      "font-size" : 20
+    }
+  }, {
+    "selector" : "node[Category = 'Input Gene']",
+    "css" : {
+      "font-size" : 20
+    }
+  }, {
+    "selector" : "node[Category = 'Compound']",
+    "css" : {
+      "font-size" : 10
+    }
+  }, {
+    "selector" : "node[Category = 'Reaction']",
+    "css" : {
+      "font-size" : 10
+    }
+  }, {
+    "selector" : "node[Category = 'Input Compound']",
+    "css" : {
+      "font-size" : 22
+    }
+  }, {
+    "selector" : "node[Significant = 1.0]",
+    "css" : {
+      "border-width" : 20.0
+    }
+  }, {
+    "selector" : "node[Significant = 2.0]",
+    "css" : {
+      "font-size" : 24,
+      "border-width" : null
+    }
+  }, {
+    "selector" : "node[Significant = 0.0]",
+    "css" : {
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[Type = 'Gene']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Type = 'Enzyme']",
+    "css" : {
+      "shape" : "roundrectangle"
+    }
+  }, {
+    "selector" : "node[Type = 'Compound']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Type = 'Reaction']",
+    "css" : {
+      "shape" : "diamond"
+    }
+  }, {
+    "selector" : "node[Significant = 1.0]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[Significant = 0.0]",
+    "css" : {
+      "width" : 50.0,
+      "height" : 50.0
+    }
+  }, {
+    "selector" : "node[Significant = 2.0]",
+    "css" : {
+      "width" : 120.0,
+      "height" : 120.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+      "target-arrow-shape" : "none",
+      "source-arrow-shape" : "none",
+      "width" : 3.0,
+      "font-size" : 10,
+      "line-color" : "rgb(64,64,64)",
+      "source-arrow-color" : "rgb(0,0,0)",
+      "target-arrow-color" : "rgb(0,0,0)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "text-opacity" : 1.0,
+      "color" : "rgb(0,0,0)",
+      "opacity" : 1.0,
+      "content" : ""
+    }
+  }, {
+    "selector" : "edge[direction = 'directed']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[direction = 'bidirectional']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[direction = 'undirected']",
+    "css" : {
+      "target-arrow-shape" : "none"
+    }
+  }, {
+    "selector" : "edge[direction = 'directed']",
+    "css" : {
+      "source-arrow-shape" : "none"
+    }
+  }, {
+    "selector" : "edge[direction = 'bidirectional']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[direction = 'undirected']",
+    "css" : {
+      "source-arrow-shape" : "none"
+    }
+  }, {
+    "selector" : "edge[weight > 1]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge[weight = 1]",
+    "css" : {
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "edge[weight > 0.5][weight < 1]",
+    "css" : {
+      "width" : "mapData(weight,0.5,1,5.0,20.0)"
+    }
+  }, {
+    "selector" : "edge[weight > 0][weight < 0.5]",
+    "css" : {
+      "width" : "mapData(weight,0,0.5,5.0,5.0)"
+    }
+  }, {
+    "selector" : "edge[weight = 0]",
+    "css" : {
+      "width" : 5.0
+    }
+  }, {
+    "selector" : "edge[weight < 0]",
+    "css" : {
+      "width" : 2.0
+    }
+  }, {
+    "selector" : "edge[direction = 'bidirectional']",
+    "css" : {
+      "line-color" : "rgb(102,194,165)"
+    }
+  }, {
+    "selector" : "edge[direction = 'directed']",
+    "css" : {
+      "line-color" : "rgb(252,141,98)"
+    }
+  }, {
+    "selector" : "edge[direction = 'undirected']",
+    "css" : {
+      "line-color" : "rgb(141,160,203)"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]

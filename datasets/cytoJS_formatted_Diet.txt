@@ -1,0 +1,1 @@
+Network for the Model Adjusted for Age, Sex, BMI,  Hispanic Background, Alcohol Use (never, former, current), Smoking (never, former, current), Total physical activity (MET-min/day), and Diet (Alternative Healthy Eating Index 2010).
